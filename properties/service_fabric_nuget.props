@@ -27,6 +27,8 @@
 
   <!-- Setting Paths -->
   <PropertyGroup>
-    <NuProjPath>$(RepoRoot)\nuget\restored_packages\NuProj.0.11.30\tools</NuProjPath>
+    <NuProjPath>$(RepoRoot)\nuget\restored_packages\NuProj.0.11.30\tools</NuProjPath>\
+    <!-- This must be set before importing -->
+    <NuProjTargetsPath>$(NuProjPath)\NuProj.targets</NuProjTargetsPath>
   </PropertyGroup>
 </Project>
